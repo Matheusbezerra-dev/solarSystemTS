@@ -1,7 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
-import imgbackgroud from '../image/background';
+import imgbackground from '../image/background.png';
 
-const GlobalStyled = createGlobalStyle`
+const GlobalStyle = createGlobalStyle`
    *{
     margin: 0;
     padding: 0;
@@ -17,8 +17,8 @@ const GlobalStyled = createGlobalStyle`
     display: flex;
     /* justify-content: center;
     flex-direction: column; */
-    background-image: url(${imgbackgroud});
+    /* background-image: url(${imgbackground}); */
   }
 `;
 
-export default GlobalStyled;
+export default GlobalStyle;

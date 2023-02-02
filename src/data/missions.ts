@@ -1,4 +1,4 @@
-import MissionsInterface from "../../interfaces/MissionsInterface";
+import MissionsInterface from "../interfaces/MissionsInterface";
 
 const USA = 'Estados Unidos';
 const URSS = 'URSS';

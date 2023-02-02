@@ -1,12 +1,12 @@
-import MercurioImg from '../../image/Mercurio.png';
-import VenusImg from '../../image/Venus.png';
-import TerraImg from '../../image/Terra.png';
-import MarteImg from '../../image/Marte.png';
-import JupiterImg from '../../image/Jupiter.png';
-import SaturnoImg from '../../image/Saturno.png';
-import Uranoimg from '../../image/Urano.png';
-import Netunoimg from '../../image/Netuno.png';
-import PlanetsIterface from '../../interfaces/PlanetsIterface';
+import MercurioImg from '../image/Mercurio.png';
+import VenusImg from '../image/Venus.png';
+import TerraImg from '../image/Terra.png';
+import MarteImg from '../image/Marte.png';
+import JupiterImg from '../image/Jupiter.png';
+import SaturnoImg from '../image/Saturno.png';
+import Uranoimg from '../image/Urano.png';
+import Netunoimg from '../image/Netuno.png';
+import PlanetsIterface from '../interfaces/PlanetsIterface';
 
 const Planets: PlanetsIterface[] = [
   { name: 'Mercúrio', image: MercurioImg, width: 41, height: 31 },

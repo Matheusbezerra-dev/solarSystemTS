@@ -1,5 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
-import imgbackground from '../image/background.png';
+import backgroundImage from '../image/backgroud.png';
+
+const background: string = `url(${backgroundImage})`;
 
 const GlobalStyle = createGlobalStyle`
    *{
@@ -9,15 +11,12 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
 
-  html, body, :root {
+  /* html, body, :root {
     min-height: 100%;
-  }
+  } */
 
-  body {
-    display: flex;
-    /* justify-content: center;
-    flex-direction: column; */
-    /* background-image: url(${imgbackground}); */
+  body {    
+    background-image: ${background};
   }
 `;
 

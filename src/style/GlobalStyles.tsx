@@ -16,7 +16,7 @@ const GlobalStyle = createGlobalStyle`
   } */
 
   body {    
-    background-image: ${background};
+    background-image: url(${backgroundImage});
   }
 `;
 
